@@ -32,6 +32,7 @@ function EmailPage() {
         description="Turn a few bullet points into a polished, on-tone email. Every draft stays editable."
       />
       <ToolWorkspace
+        kind="email"
         cta="Generate email"
         outputLabel="Email draft (editable)"
         system="You are an expert business communication writer. Write clear, concise workplace emails. Always include a subject line, greeting, body and sign-off. Avoid filler, avoid over-promising, and never invent facts that were not provided."

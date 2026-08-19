@@ -32,6 +32,7 @@ function PlannerPage() {
         description="Turn a goal into a prioritised plan with owners, effort estimates and a realistic schedule."
       />
       <ToolWorkspace
+        kind="task"
         cta="Build plan"
         outputLabel="Task plan (editable)"
         system="You are a pragmatic project planner. Produce a prioritised plan as a markdown table (Task, Priority, Owner, Estimate, Due) followed by a short sequencing note and identified risks. Keep plans realistic for the stated capacity."
