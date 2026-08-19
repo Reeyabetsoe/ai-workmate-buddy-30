@@ -32,7 +32,6 @@ function ResearchPage() {
         description="Get a structured briefing on any work topic, with explicit uncertainty and what to verify."
       />
       <ToolWorkspace
-        kind="research"
         cta="Run research brief"
         outputLabel="Research brief (editable)"
         system="You are a research analyst. Produce: Summary, Key Findings, Comparison or Options (table where useful), Trade-offs, Recommended next steps, and a 'Verify this' list. Clearly flag anything uncertain or time-sensitive. Do not fabricate statistics, citations or sources — say when a claim needs verification."

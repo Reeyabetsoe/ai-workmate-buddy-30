@@ -32,7 +32,6 @@ function NotesPage() {
         description="Paste a transcript or rough notes and get decisions, action items, owners and open questions."
       />
       <ToolWorkspace
-        kind="meeting"
         cta="Summarize notes"
         outputLabel="Summary (editable)"
         system="You are a meticulous meeting analyst. Summarise notes into: Overview, Key Decisions, Action Items (owner + due date when stated), Risks/Blockers, and Open Questions. Never invent owners or dates — write 'unassigned' or 'no date' instead."
